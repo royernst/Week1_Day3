@@ -1,0 +1,19 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Week1_Day3
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            string test = Console.ReadLine();
+            int value = Convert.ToInt32(test);
+            Console.WriteLine(test);
+        }
+    }
+}
