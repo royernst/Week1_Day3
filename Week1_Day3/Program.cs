@@ -53,6 +53,51 @@ namespace Week1_Day3
                 Console.WriteLine("That's not your real age");
             }
             */
+
+            Console.WriteLine("How many points did you earn?");
+            int pointsEarned = int.Parse(Console.ReadLine());
+
+            switch (pointsEarned)
+            {
+                case 0:
+                    Console.WriteLine("You lose.");
+                    break;
+                /* if(pointsEarned == 0)
+                 * {
+                 *      Console.WriteLine("You lose.");
+                 * }
+                 */
+
+                case 1:
+                    Console.WriteLine("Need practice.");
+                    break;
+
+
+                case 2:
+                    Console.WriteLine("On target.");
+                    break;
+
+                case 3:
+                    Console.WriteLine("Superstar.");
+                    break;
+
+                case 4:
+                    Console.WriteLine("Overacheiver.");
+                    break;
+
+                case 5:
+                    Console.WriteLine("You cheated.");
+                    break;
+
+                default:
+                    Console.WriteLine("Invalid score entered");
+                    break;
+                /* else
+                 * {
+                 *      Console.WriteLine("Invalid score entered");
+                 * }
+                 */
+            }
         }
     }
 }
